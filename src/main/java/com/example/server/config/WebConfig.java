@@ -16,5 +16,6 @@
 //                .allowedOriginPatterns("*")
 //                .allowedMethods("GET", "POST", "PUT", "DELETE")
 //                .allowCredentials(true);
+
 //    }
 //}
