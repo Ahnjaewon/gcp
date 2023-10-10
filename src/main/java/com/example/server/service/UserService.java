@@ -1,6 +1,6 @@
 package com.example.server.service;
 
-import com.example.server.entity.User;
+import com.example.server.entity.Member;
 import com.example.server.repository.UserRepository;
 import com.example.server.dto.UserRequest;
 import com.example.server.dto.UserResponse;
@@ -15,8 +15,8 @@ public class UserService {
 
     private final UserRepository userRepository;
     public List<UserResponse> userList() {
-        List<User> userList = userRepository.findAll();
-        return userList.stream()
+        List<Member> memberList = userRepository.findAll();
+        return memberList.stream()
                 .map(UserResponse::new)
                 .toList();
     }

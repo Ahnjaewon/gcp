@@ -1,6 +1,6 @@
 package com.example.server.dto;
 
-import com.example.server.entity.User;
+import com.example.server.entity.Member;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -14,9 +14,9 @@ public class UserResponse {
 
     private String text;
 
-    public UserResponse(User user) {
-        this.id = user.getId();
-        this.name = user.getName();
-        this.text = user.getText();
+    public UserResponse(Member member) {
+        this.id = member.getId();
+        this.name = member.getName();
+        this.text = member.getText();
     }
 }
