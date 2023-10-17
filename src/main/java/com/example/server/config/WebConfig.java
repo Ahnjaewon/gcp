@@ -1,5 +1,5 @@
 //package com.example.server.config;
-// jenkis test
+// jenkis test2
 
 //import org.springframework.context.annotation.Configuration;
 //import org.springframework.web.servlet.config.annotation.CorsRegistry;
